@@ -1,5 +1,16 @@
 # Izvor Studio — IDE design prototype
 
+A high-fidelity, interactive prototype of the IDE for
+[izvor](https://github.com/levimackay/izvor), a programming language I am
+writing from scratch in C.
+
+**Read this first:** the prototype is a design target, not a description of
+what exists. It shows the tooling the language should eventually deserve,
+and its sample code uses syntax and compiler stages the real implementation
+has not reached. The working compiler today is a lexer, a recursive-descent
+parser and a tree-walking evaluator for arithmetic. Nothing in here is
+claimed as built.
+
 ## What this is
 
 `Izvor Studio.dc.html` is a high-fidelity, interactive prototype of **Izvor Studio**, the IDE
@@ -13,7 +24,8 @@ implemented against an actual compiler and language server.
 
 ## The language it represents
 
-Izvor is designed around:
+These are the design goals the prototype was drawn against, not implemented
+features:
 
 - Native performance — compiles directly to machine code, no bytecode, no JIT
 - Static typing with strong inference (annotations optional almost everywhere)
@@ -117,7 +129,7 @@ except the deliberate compiler stage cadence (230ms per stage).
   body resets live in a stylesheet block).
 - `support.js` — the small runtime that renders the template. Required; keep it adjacent.
 
-## If you are Claude Code picking this up
+## Notes for implementing this for real
 
 Treat this file as the **spec**, not the codebase. When building the real IDE:
 
@@ -133,6 +145,8 @@ Treat this file as the **spec**, not the codebase. When building the real IDE:
    the real diagnostics UI.
 6. Fonts are the only external dependency. Everything else is self-contained.
 
-Open questions to resolve with the language author: final `.iz` grammar and keyword set,
-whether `move` stays explicit, the exact compiler stage names to expose in the UI, and
-whether the AI agent is local or hosted.
+Open questions: the final `.iz` grammar and keyword set, whether `move` stays
+explicit, the exact compiler stage names worth exposing in the UI, and whether
+the assistant panel is backed by a local or a hosted model. The language's own
+roadmap is in the
+[compiler repo](https://github.com/levimackay/izvor/blob/main/docs/ROADMAP.md).
