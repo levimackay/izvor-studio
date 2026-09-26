@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1012 198" width="1012" height="198" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+<rect x="0" y="0" width="1012" height="198" rx="8" fill="#24282c" stroke="#33383e"/>
+<text x="14" y="35.0" font-size="11" letter-spacing="0.06em" fill="#9aa3ab">SURFACES</text>
+<rect x="100" y="23.5" width="15" height="15" rx="4" fill="#0a0b0d" stroke="#454b52"/>
+<text x="122" y="35.0" font-size="10" fill="#d7dce0">editor</text>
+<rect x="210" y="23.5" width="15" height="15" rx="4" fill="#0b0d0f" stroke="#454b52"/>
+<text x="232" y="35.0" font-size="10" fill="#d7dce0">terminal</text>
+<rect x="320" y="23.5" width="15" height="15" rx="4" fill="#0c0e11" stroke="#454b52"/>
+<text x="342" y="35.0" font-size="10" fill="#d7dce0">activity bar</text>
+<rect x="430" y="23.5" width="15" height="15" rx="4" fill="#0d0f11" stroke="#454b52"/>
+<text x="452" y="35.0" font-size="10" fill="#d7dce0">panels</text>
+<rect x="540" y="23.5" width="15" height="15" rx="4" fill="#0e1114" stroke="#454b52"/>
+<text x="562" y="35.0" font-size="10" fill="#d7dce0">cards</text>
+<rect x="650" y="23.5" width="15" height="15" rx="4" fill="#101317" stroke="#454b52"/>
+<text x="672" y="35.0" font-size="10" fill="#d7dce0">overlays</text>
+<rect x="760" y="23.5" width="15" height="15" rx="4" fill="#12161a" stroke="#454b52"/>
+<text x="782" y="35.0" font-size="10" fill="#d7dce0">popovers</text>
+<text x="14" y="69.0" font-size="11" letter-spacing="0.06em" fill="#9aa3ab">BORDERS</text>
+<rect x="100" y="57.5" width="15" height="15" rx="4" fill="#15191c" stroke="#454b52"/>
+<text x="122" y="69.0" font-size="10" fill="#d7dce0">hairline</text>
+<rect x="210" y="57.5" width="15" height="15" rx="4" fill="#1b2024" stroke="#454b52"/>
+<text x="232" y="69.0" font-size="10" fill="#d7dce0">panel</text>
+<rect x="320" y="57.5" width="15" height="15" rx="4" fill="#262c32" stroke="#454b52"/>
+<text x="342" y="69.0" font-size="10" fill="#d7dce0">control</text>
+<rect x="430" y="57.5" width="15" height="15" rx="4" fill="#2b3238" stroke="#454b52"/>
+<text x="452" y="69.0" font-size="10" fill="#d7dce0">overlay</text>
+<text x="14" y="103.0" font-size="11" letter-spacing="0.06em" fill="#9aa3ab">TEXT</text>
+<rect x="100" y="91.5" width="15" height="15" rx="4" fill="#e6e9ec" stroke="#454b52"/>
+<text x="122" y="103.0" font-size="10" fill="#d7dce0">primary</text>
+<rect x="210" y="91.5" width="15" height="15" rx="4" fill="#c6ccd2" stroke="#454b52"/>
+<text x="232" y="103.0" font-size="10" fill="#d7dce0">secondary</text>
+<rect x="320" y="91.5" width="15" height="15" rx="4" fill="#8b949c" stroke="#454b52"/>
+<text x="342" y="103.0" font-size="10" fill="#d7dce0">tertiary</text>
+<rect x="430" y="91.5" width="15" height="15" rx="4" fill="#5e666d" stroke="#454b52"/>
+<text x="452" y="103.0" font-size="10" fill="#d7dce0">quaternary</text>
+<rect x="540" y="91.5" width="15" height="15" rx="4" fill="#454d54" stroke="#454b52"/>
+<text x="562" y="103.0" font-size="10" fill="#d7dce0">line no.</text>
+<text x="14" y="137.0" font-size="11" letter-spacing="0.06em" fill="#9aa3ab">ACCENTS</text>
+<rect x="100" y="125.5" width="15" height="15" rx="4" fill="#67d2cc" stroke="#454b52"/>
+<text x="122" y="137.0" font-size="10" fill="#d7dce0">primary</text>
+<rect x="210" y="125.5" width="15" height="15" rx="4" fill="#b59be6" stroke="#454b52"/>
+<text x="232" y="137.0" font-size="10" fill="#d7dce0">ai</text>
+<rect x="320" y="125.5" width="15" height="15" rx="4" fill="#65c98c" stroke="#454b52"/>
+<text x="342" y="137.0" font-size="10" fill="#d7dce0">success</text>
+<rect x="430" y="125.5" width="15" height="15" rx="4" fill="#e6b55d" stroke="#454b52"/>
+<text x="452" y="137.0" font-size="10" fill="#d7dce0">warning</text>
+<rect x="540" y="125.5" width="15" height="15" rx="4" fill="#e3645e" stroke="#454b52"/>
+<text x="562" y="137.0" font-size="10" fill="#d7dce0">error</text>
+<rect x="650" y="125.5" width="15" height="15" rx="4" fill="#75acd2" stroke="#454b52"/>
+<text x="672" y="137.0" font-size="10" fill="#d7dce0">info</text>
+<text x="14" y="171.0" font-size="11" letter-spacing="0.06em" fill="#9aa3ab">SYNTAX</text>
+<rect x="100" y="159.5" width="15" height="15" rx="4" fill="#c1a9ee" stroke="#454b52"/>
+<text x="122" y="171.0" font-size="10" fill="#d7dce0">keyword</text>
+<rect x="210" y="159.5" width="15" height="15" rx="4" fill="#89dbdf" stroke="#454b52"/>
+<text x="232" y="171.0" font-size="10" fill="#d7dce0">type</text>
+<rect x="320" y="159.5" width="15" height="15" rx="4" fill="#ded38d" stroke="#454b52"/>
+<text x="342" y="171.0" font-size="10" fill="#d7dce0">function</text>
+<rect x="430" y="159.5" width="15" height="15" rx="4" fill="#99ce9a" stroke="#454b52"/>
+<text x="452" y="171.0" font-size="10" fill="#d7dce0">string</text>
+<rect x="540" y="159.5" width="15" height="15" rx="4" fill="#f1bc7e" stroke="#454b52"/>
+<text x="562" y="171.0" font-size="10" fill="#d7dce0">number</text>
+<rect x="650" y="159.5" width="15" height="15" rx="4" fill="#5b646c" stroke="#454b52"/>
+<text x="672" y="171.0" font-size="10" fill="#d7dce0">comment</text>
+<rect x="760" y="159.5" width="15" height="15" rx="4" fill="#7c858d" stroke="#454b52"/>
+<text x="782" y="171.0" font-size="10" fill="#d7dce0">punct.</text>
+<rect x="870" y="159.5" width="15" height="15" rx="4" fill="#d3d9de" stroke="#454b52"/>
+<text x="892" y="171.0" font-size="10" fill="#d7dce0">identifier</text>
+</svg>
