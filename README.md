@@ -3,8 +3,8 @@
 ![Izvor Studio workspace](docs/hero-workspace.jpg)
 
 Izvor Studio is a high-fidelity, interactive prototype of the IDE for
-[izvor](https://github.com/levimackay/izvor), a programming language I am
-writing in C. It was designed with Claude Design. Open `Izvor Studio.dc.html`
+[izvor](https://github.com/levimackay/izvor), a small programming language
+written in C. It was designed with Claude Design. Open `Izvor Studio.dc.html`
 directly in a browser to try it (it needs `support.js` sitting next to it,
 nothing else, no build step).
 
@@ -40,8 +40,7 @@ jump to a symbol.
 
 ![AI panel applying a diff](docs/ai-apply.jpg)
 
-**Izvor AI applying a change.** This is not a screenshot of a static mock.
-Clicking Apply here actually rewrites the line in `server.iz`, marks the
+**Izvor AI applying a change.** Clicking Apply actually rewrites the line in `server.iz`, marks the
 file dirty, and jumps the editor to it.
 
 </td>
