@@ -2,14 +2,14 @@
 
 A high-fidelity, interactive prototype of the IDE for
 [izvor](https://github.com/levimackay/izvor), a programming language I am
-writing from scratch in C.
+writing in C. The prototype was designed with Claude Design.
 
 **Read this first:** the prototype is a design target, not a description of
 what exists. It shows the tooling the language should eventually deserve,
 and its sample code uses syntax and compiler stages the real implementation
-has not reached. The working compiler today is a lexer, a recursive-descent
-parser and a tree-walking evaluator for arithmetic. Nothing in here is
-claimed as built.
+has not reached. The working compiler today has Int and Bool, functions,
+if and while, and compiles to C and then a native binary. Nothing in here
+is claimed as built.
 
 ## What this is
 
@@ -37,7 +37,8 @@ features:
 Syntax conventions used in the prototype's sample code: `fn`, `async fn`, `struct`, `impl`,
 `use module.{A, B}`, `let` (immutable) / `var` (mutable), `?` for error/optional propagation,
 `spawn expr` to move a task onto the scheduler, `move` for explicit ownership transfer,
-`Task<T>`, `Stream<T>`, `Handle<T>`, 4-space indentation, no semicolons.
+`Task<T>`, `Stream<T>`, `Handle<T>`, 4-space indentation, no semicolons. (The real
+language ended up requiring semicolons.)
 Project manifest is `izvor.toml`. CLI is `izvor build --release`, `izvor run`, `izvor test`,
 `izvor fmt`, `izvor debug`.
 
